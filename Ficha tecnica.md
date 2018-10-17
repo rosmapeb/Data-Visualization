@@ -23,5 +23,5 @@ La ficha que se elaboró se divide en cuatro secciones:
 - __ENVIPE__: Datos de la ENVIPE que proporcionan las principales opiniones de la ciudadanía respecto a Consuctas delictivas, Problemas relevantes, así como Confianza y Despeño de las autoridades
 - __Delincuencia__: Datos de la ENVIPE que proporcionan la percepción de la ciudadanía respecto al Horario y Daño de los delitos, así como el tiempo empleado y el trato recibido en el Proceso de denuncia
 
-![Vista previa de la Ficha Tecnica](attachment:Selecci%C3%B3n_088.png "Vista previa de la Ficha Tecnica")
+![seleccion_088](https://user-images.githubusercontent.com/22421174/47114353-333a1b80-d221-11e8-8273-756d0d9de587.png)
 
