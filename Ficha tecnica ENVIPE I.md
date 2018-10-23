@@ -31,10 +31,10 @@ edo<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/estados.csv")
 mun<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/municipios.csv")
 ```
 
-| Campo|| Descripción|| Tipo || Ejemplo |
-| ---------- ||---------- ||---------- |
-| __CVEGEO__  || Clave INEGI concatenada del Estado y Municipio || Entero || 1001 |
-| __nommun__  || Nombre del Municipio || Texto || "Aguascalientes" |
+| Campo| Descripción | Tipo | Ejemplo |
+| --- | --- | --- | --- |
+| __CVEGEO__ | Clave INEGI concatenada del Estado y Municipio | Entero | 1001 |
+| __nommun__ | Nombre del Municipio | Texto | "Aguascalientes" |
 
 2. _ENVIPE I - Viviendas_
 
@@ -44,7 +44,7 @@ vivienda<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/I_TVivien
 ```
 
 | Campo|| Descripción|| Tipo || Ejemplo |
-| ---------- ||---------- ||---------- |
+| --- | --- | --- | --- |
 | __ID_VIV__  || Identificador de la vivienda || Texto || "0100008.01" |
 | __UPM__  || Unidad primaria de muestreo || Texto || "100008" |
 | __VIV_SEL__  || Vivienda seleccionada || Texto || "1" |
