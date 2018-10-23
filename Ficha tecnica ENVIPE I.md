@@ -19,10 +19,10 @@ Las bases de datos de entrada se divide en dos categorías: (1) la correspondien
 edo<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/estados.csv")
 ```
 
-| Campo|| Descripción|| Tipo || Ejemplo |
-| ---------- ||---------- ||---------- |
-| __CVE_ENT__  || Clave INEGI del Estado || Entero || 1 |
-| __nombreedo__  || Nombre del Estado || Texto || "Aguascalientes" |
+| Campo| Descripción| Tipo | Ejemplo |
+| --- | --- | --- | --- |
+| __CVE_ENT__ | Clave INEGI del Estado | Entero | 1 |
+| __nombreedo__ | Nombre del Estado | Texto | "Aguascalientes" |
 
 1b. _Municipios_
 
