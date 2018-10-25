@@ -4,11 +4,11 @@
  
  INEGI
 
-#### Descripción
+### Descripción
 
 Este documento contiene el código correspondiente a la obtención de datos referentes a las características del entorno de la vivienda y la condición de delito de las personas entrevistadas en la ENVIPE (las cuales fueron encuestadas completamente)
 
-#### Inputs
+### Inputs
 
 Las bases de datos de entrada se divide en dos categorías: (1) la correspondiente a los nombres corregidos de los estados y municipios, y (2) La de las caracteristicas de las viviendas seleccionadas, sus integrantes y los hogares que las conforman. La estructura subsecuente, presenta únicamente los campos de la tabla que son utilizados:
 
@@ -20,7 +20,7 @@ edo<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/estados.csv")
 ```
 
 | Campo| Descripción| Tipo | Ejemplo |
-| --- | --- | --- | --- |
+| --- |---  | --- | --- |
 | __CVE_ENT__ | Clave INEGI del Estado | Entero | 1 |
 | __nombreedo__ | Nombre del Estado | Texto | "Aguascalientes" |
 
@@ -31,10 +31,10 @@ edo<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/estados.csv")
 mun<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/municipios.csv")
 ```
 
-| Campo| Descripción | Tipo | Ejemplo |
-| --- | --- | --- | --- |
-| __CVEGEO__ | Clave INEGI concatenada del Estado y Municipio | Entero | 1001 |
-| __nommun__ | Nombre del Municipio | Texto | "Aguascalientes" |
+| Campo|| Descripción|| Tipo || Ejemplo |
+| ---------- ||---------- ||---------- |
+| __CVEGEO__  || Clave INEGI concatenada del Estado y Municipio || Entero || 1001 |
+| __nommun__  || Nombre del Municipio || Texto || "Aguascalientes" |
 
 2. _ENVIPE I - Viviendas_
 
@@ -44,7 +44,7 @@ vivienda<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/I_TVivien
 ```
 
 | Campo|| Descripción|| Tipo || Ejemplo |
-| --- | --- | --- | --- |--- | --- | --- |
+| ---------- ||---------- ||---------- |
 | __ID_VIV__  || Identificador de la vivienda || Texto || "0100008.01" |
 | __UPM__  || Unidad primaria de muestreo || Texto || "100008" |
 | __VIV_SEL__  || Vivienda seleccionada || Texto || "1" |
@@ -62,7 +62,7 @@ vivienda<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/I_TVivien
 |   ||  __C__ : Complemento urbano ||  || |
 |   ||  __R__ : Rural ||  || |
 
-  - __Fórmulas sistematizadas__
+### Fórmulas sistematizadas
   
   Scripts para convertir la clave INEGI de la entidad de número (1) a texto ("01") y para convertir la clave INEGI del municipio de número (1) a texto ("001")
 
@@ -113,10 +113,10 @@ claveEntMun<-function(x) {
 }
 ```
 
-  - __Preparación de datos__
+### Preparación de datos
   
   
-  1. _Estados y Municipios_: Se prepara la base para que tenga el formato adecuado
+  1. ___Estados y Municipios___: Se prepara la base para que tenga el formato adecuado
 
 
 ```R
@@ -134,6 +134,23 @@ colnames(mun)<-c("conca","NomMun")
 rm(CVEGEO)
 detach(mun)
 ```
+
+    The following object is masked _by_ .GlobalEnv:
+    
+        CVE_ENT
+    
+
+
+
+    Error in data.frame(CVE_ENT, noment): arguments imply differing number of rows: 90504, 32
+    Traceback:
+
+
+    1. data.frame(CVE_ENT, noment)
+
+    2. stop(gettextf("arguments imply differing number of rows: %s", 
+     .     paste(unique(nrows), collapse = ", ")), domain = NA)
+
 
 
 ```R
@@ -171,7 +188,7 @@ head(mun)
 
 
 
-  2. __Vivienda__: Se aplica FILTRO cuando solo hay encuestas completas tanto de victimas como de no victimas (OPCIONES 1 Y 2 DEL CAMPO RESULT_V) 
+  2. ___Vivienda___: Se aplica FILTRO cuando solo hay encuestas completas tanto de victimas como de no victimas (OPCIONES 1 Y 2 DEL CAMPO RESULT_V) 
 
 
 ```R
@@ -205,7 +222,7 @@ head(vivienda)
 
 
 
-  - __Consultas__
+### Consultas
 
   1. CONSULTA PARA OBTENER ENTIDAD, MUNICIPIO Y DOMINIO
 
@@ -359,7 +376,7 @@ head(vicnovic)
 
 
 
-  - __OUTPUT Tabla base y ENVIPE I__
+### OUTPUT Tabla base y ENVIPE I
 
 MERGE-ENVIPE CON TABLA BASE
 
@@ -395,7 +412,7 @@ head(tbase)
 
 
 
-  - __Salva de Output__
+### Salva de Output
 
 
 ```R

@@ -7,11 +7,11 @@
 
 ------------------------------------------------------
 
-#### Descripción
+### Descripción
 
 Código correspondiente a la obtención de datos referentes a las características demográficas y urbanas de los municipios de México, con base en datos de la _Delimitacion de las zonas metropolitanas de México, 2010_ de CONAPO y del SCINCE 2010 de INEGI
 
-#### Inputs
+### Inputs
 
 INCLUYE Datos del Censo de Población y Vivienda 2010 y la Delimitación de las zonas metropolitanas de México 2010 y con la estructura subsecuente:
 
@@ -36,9 +36,9 @@ scince <- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/pobmun_sci
 | __criterio__  || Característica de la centralidad (CONAPO) || Texto || "Conurbación física"|
 | __zmetro__  || Zona metropolitana correspondiente (CONAPO) || Texto || "Aguascalientes"|
 
-  - Fórmulas sistematizadas
+### Fórmulas sistematizadas
   
-  Script para convertir la clave del INEGI de número (1001) a texto ("01001")
+Script para convertir la clave del INEGI de número (1001) a texto ("01001")
 
 
 ```R
@@ -57,7 +57,7 @@ claveEntMun<-function(x) {
 }
 ```
 
-  - Preparación de datos
+### Preparación de datos
 
 
 ```R
@@ -85,7 +85,7 @@ colnames(scince)<-c("conca","pobtot","pobfem","menoresM","adultosM","mayoresM","
 detach(scince)
 ```
 
-  - Output SCINCE
+### Output SCINCE
 
 
 ```R
@@ -107,7 +107,7 @@ head(scince)
 
 
 
-  - Salva de Output
+### Salva de Output
 
 
 ```R
