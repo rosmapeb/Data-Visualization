@@ -238,3 +238,45 @@ __Autoridades__
     3. Porcentaje de desempeño: Se refiere al porcentaje de población por cada municipio con la misma opinión hacia la autoridad referida
 
 ![desempeno.png](attachment:desempeno.png)
+
+---
+
+__TERCERA SECCIÓN : ENVIPE III__
+
+Esta sección corresponde a los datos de la _Encuesta Nacional de Victimización y Percepción sobre Seguridad Pública 2017_ en la cual se reunen datos relacionados con los delitos y el proceso de denuncia de las víctimas.
+
+__Víctimas y delito__
+
+  - __Horario__: Se refiere a la parte del día en la que fueron cometidos los delitos y se encuentran representados en porcentaje, los horarios son:
+    1. Mañana (de 6:01 a 12:00 hrs)
+    2. Tarde (de 12:01 a 18:00 hrs)
+    3. Noche (de 18:01 a 24:00 hrs)
+    4. Madrugada (de 00:01 a 6:00 hrs)
+
+![horario%20del%20delito.png](attachment:horario%20del%20delito.png)
+
+  - __Daño__: Se refiere al tipo de pérdida ocasionada por el delito. Esta puede ser:
+    1. Económica
+    2. Emocional
+    3. Física
+    4. Laboral
+
+![da%C3%B1os.png](attachment:da%C3%B1os.png)
+
+__Proceso de denuncia__
+
+  - __Tiempo empleado__: Se refiere a las horas que le tomó a la victima realizar la denuncia correspondiente ante el MP. Las categorías son:
+    1. Menor a 1 hora
+    2. Entre 1 y 2 horas
+    3. Entre 3 y 4 horas
+    4. Mayor a 4 horas
+
+![tiempo.png](attachment:tiempo.png)
+
+  - __Trato recibido__: Se refiere al trato que se recibió por parte del MP durante el proceso de denuncia, y puede ser:
+    1. Excelente
+    2. Bueno
+    3. Malo
+    4. Muy malo
+
+![trato.png](attachment:trato.png)
