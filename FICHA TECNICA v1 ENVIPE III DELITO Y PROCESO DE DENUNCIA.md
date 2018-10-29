@@ -13,7 +13,7 @@ El código que se muestra a continuación, muestra el proceso que se le dió a l
 
 Debido a que esta tabla se focaliza en las personas, la distribución espacial no se incluye. No obstante, como se observa en la siguiente figura, la tabla con datos de personas se encuentra relacionada con otras que incluyen la distribución espacial, por lo cual deben relacionarse.
 
-![Selecci%C3%B3n_092.png](attachment:Selecci%C3%B3n_092.png)
+![seleccion_092](https://user-images.githubusercontent.com/22421174/47675479-b0e61b80-db7f-11e8-9c7e-10f945efc9c5.png)
 
 La figura muestra el modelo lógico que estructura la base de datos de la ENVIPE, en la cual, las tablas resaltadas con el color rojo representan las bases de datos utilizadas: _TModVic_ contiene los datos necesarios para el análisis, mientras que _TPerVic_ contiene la distribución espacial. En este caso la llave que permite la concatenación es el campo __ID_PER__.
 
