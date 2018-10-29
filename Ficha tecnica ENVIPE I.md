@@ -32,7 +32,7 @@ mun<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/municipios.csv
 ```
 
 | Campo|| Descripción|| Tipo || Ejemplo |
-| ---------- ||---------- ||---------- |
+| --- | --- | --- | --- | --- | --- | --- |
 | __CVEGEO__  || Clave INEGI concatenada del Estado y Municipio || Entero || 1001 |
 | __nommun__  || Nombre del Municipio || Texto || "Aguascalientes" |
 
@@ -44,7 +44,7 @@ vivienda<- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/I_TVivien
 ```
 
 | Campo|| Descripción|| Tipo || Ejemplo |
-| ---------- ||---------- ||---------- |
+| --- | --- | --- | --- | --- | --- | --- |
 | __ID_VIV__  || Identificador de la vivienda || Texto || "0100008.01" |
 | __UPM__  || Unidad primaria de muestreo || Texto || "100008" |
 | __VIV_SEL__  || Vivienda seleccionada || Texto || "1" |
@@ -134,23 +134,6 @@ colnames(mun)<-c("conca","NomMun")
 rm(CVEGEO)
 detach(mun)
 ```
-
-    The following object is masked _by_ .GlobalEnv:
-    
-        CVE_ENT
-    
-
-
-
-    Error in data.frame(CVE_ENT, noment): arguments imply differing number of rows: 90504, 32
-    Traceback:
-
-
-    1. data.frame(CVE_ENT, noment)
-
-    2. stop(gettextf("arguments imply differing number of rows: %s", 
-     .     paste(unique(nrows), collapse = ", ")), domain = NA)
-
 
 
 ```R
