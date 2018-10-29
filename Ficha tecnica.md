@@ -62,7 +62,7 @@ De esta forma la condición urbana de México se comprende a partir del grado de
 - __Criterio de centralidad__ : Con base en las características que cumplen los tipos de centralidad, presentan la siguiente distribución de caracteristicas:
 
 | Municipios centrales|| Municipios exteriores |
-| ---------- ||---------- |
+| --- | --- | --- |
 | Integración funcional  || Integración funcional  |
 | Política urbana  || Política urbana   |
 | Conurbación física  ||    |
