@@ -142,7 +142,7 @@ Resultado de esta metodología, en el contexto nacional los datos obtenidos indi
 
 La distribución de las denuncias según el delito para los periodos Julio 2016-17 y Julio 2017-18 es la siguiente:
 
-<center>![comparativo](https://user-images.githubusercontent.com/22421174/47382886-fc548180-d6c8-11e8-9644-efa65e9a167b.png)</center>
+![comparativo](https://user-images.githubusercontent.com/22421174/47382886-fc548180-d6c8-11e8-9644-efa65e9a167b.png)
 
 _Asignación de clave_
 
@@ -214,13 +214,13 @@ __Percepción del entorno__
     2. Cantidad: Indica el número de población que consideró que la conducta antisocial elegida se realilza en su entorno y representa preocupación para ella.
 
 
-<center>![conductas](https://user-images.githubusercontent.com/22421174/47517581-45820e00-d84e-11e8-8fa1-43c7bffc43bc.png)</center>
+![conductas](https://user-images.githubusercontent.com/22421174/47517581-45820e00-d84e-11e8-8fa1-43c7bffc43bc.png)
 
   - __Problemas relevantes__: Se refiere a los temas de mayor preocupación en México a opinión de los encuestados, los datos proporcionados son:
     1. Problema
     2. Cantidad: Indica el número de población que consideró al problema como de mayor trascendencia en México
 
-<center>![problemas](https://user-images.githubusercontent.com/22421174/47517591-4d41b280-d84e-11e8-8162-e86399ac7760.png)</center>
+![problemas](https://user-images.githubusercontent.com/22421174/47517591-4d41b280-d84e-11e8-8162-e86399ac7760.png)
 
 __Autoridades__
 
@@ -229,14 +229,14 @@ __Autoridades__
     2. Nivel de confianza: Obtenido de variables de contraste proporcionadas por INEGI. La clasificación cualitativa tiene los tópicos _Mucha_, _Alguna_, _Poca_, _Nada_, _No sabe / No responde_
     3. Porcentaje de confianza: Se refiere al porcentaje de población por cada municipio con la misma opinión hacia la autoridad referida
 
-<center>![confianza](https://user-images.githubusercontent.com/22421174/47517609-592d7480-d84e-11e8-8629-0a066f50423d.png)</center>
+![confianza](https://user-images.githubusercontent.com/22421174/47517609-592d7480-d84e-11e8-8629-0a066f50423d.png)
 
   - __Desempeño__: Se refiere a las autoridades con el mayor porcentaje de efectividad percibido por las personas encuestadas, los datos porporcionados son:
     1. Autoridad
     2. Nivel de desempeño: Clasificación cualitativa de INEGI en la cual se consideran las clases: _Muy efectivo_ (Mucho), _Algo efectivo_, _Poco efectivo_, _Nada efectivo_, _No sabe / No responde_
     3. Porcentaje de desempeño: Se refiere al porcentaje de población por cada municipio con la misma opinión hacia la autoridad referida
 
-<center>![desempeno](https://user-images.githubusercontent.com/22421174/47517615-5f235580-d84e-11e8-9933-7377406aa812.png)</center>
+![desempeno](https://user-images.githubusercontent.com/22421174/47517615-5f235580-d84e-11e8-9933-7377406aa812.png)
 
 ___El código utilizado para obtener la base de datos por municipio correspondientes al ENVIPE II Entorno y autoridades se encuentran en el link: https://github.com/rosmapeb/Data-Visualization/blob/master/Ficha%20tecnica%20ENVIPE%20II%20Entorno%20y%20Autoridades.md___
 
@@ -254,15 +254,15 @@ __Víctimas y delito__
     3. Noche (de 18:01 a 24:00 hrs)
     4. Madrugada (de 00:01 a 6:00 hrs)
 
-<center>![horario del delito](https://user-images.githubusercontent.com/22421174/47531159-65c3c400-d872-11e8-8459-c785370f2645.png)</center>
+![horario del delito](https://user-images.githubusercontent.com/22421174/47531159-65c3c400-d872-11e8-8459-c785370f2645.png)
 
   - __Daño__: Se refiere al tipo de pérdida ocasionada por el delito. Esta puede ser:
     1. Económica
     2. Emocional
     3. Física
     4. Laboral
-
-<center>![danos](https://user-images.githubusercontent.com/22421174/47531173-6c523b80-d872-11e8-82a3-fd67864f3881.png)</center>
+    
+![danos](https://user-images.githubusercontent.com/22421174/47531173-6c523b80-d872-11e8-82a3-fd67864f3881.png)
 
 __Proceso de denuncia__
 
@@ -272,7 +272,7 @@ __Proceso de denuncia__
     3. Entre 3 y 4 horas
     4. Mayor a 4 horas
 
-<center>![tiempo](https://user-images.githubusercontent.com/22421174/47531179-72e0b300-d872-11e8-8521-2d597f9f3777.png)</center>
+![tiempo](https://user-images.githubusercontent.com/22421174/47531179-72e0b300-d872-11e8-8521-2d597f9f3777.png)
 
   - __Trato recibido__: Se refiere al trato que se recibió por parte del MP durante el proceso de denuncia, y puede ser:
     1. Excelente
@@ -280,6 +280,6 @@ __Proceso de denuncia__
     3. Malo
     4. Muy malo
 
-<center>![trato](https://user-images.githubusercontent.com/22421174/47531185-770cd080-d872-11e8-826b-5cfe16cd71d1.png)</center>
+![trato](https://user-images.githubusercontent.com/22421174/47531185-770cd080-d872-11e8-826b-5cfe16cd71d1.png)
 
 ___El código utilizado para obtener la base de datos por municipio correspondientes al ENVIPE III Delito y proceso de denuncia se encuentran en el link: https://github.com/rosmapeb/Data-Visualization/blob/master/FICHA%20TECNICA%20v1%20ENVIPE%20III%20DELITO%20Y%20PROCESO%20DE%20DENUNCIA.md___
