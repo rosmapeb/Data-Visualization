@@ -21,7 +21,7 @@ scince <- read.csv("/home/rosa/Descargas/BASE_DE_DATOS_ENVIPE_2017_en/pobmun_sci
 ```
 
 | Campo|| Descripción|| Tipo || Ejemplo |
-| ---------- ||---------- ||---------- |
+| --- | --- | --- | --- | --- | --- | --- |
 | __CVEGEO__ || Clave - identificador de INEGI para cada municipio  || Texto || "01001" |
 | __NOM_ENT__  || Nombre del estado || Texto || "Aguascalientes" |
 | __NOM_MUN__  || Nombre del municipio || Texto || "Aguascalientes" |
