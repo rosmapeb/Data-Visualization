@@ -26,7 +26,7 @@ La ficha que se elaboró se divide en cuatro secciones:
 
 Con base en estas secciones, a continuación se explicará a detalle el _output_ final:
 
-![Vista previa de la Ficha Tecnica](attachment:Selecci%C3%B3n_088.png "Vista previa de la Ficha Tecnica")
+https://github.com/rosmapeb/Data-Visualization/issues/1#issuecomment-433130208
 
 
 #### PRIMERA SECCIÓN: Datos descriptivos
