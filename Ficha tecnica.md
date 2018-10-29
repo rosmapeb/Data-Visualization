@@ -26,8 +26,7 @@ La ficha que se elaboró se divide en cuatro secciones:
 
 Con base en estas secciones, a continuación se explicará a detalle el _output_ final:
 
-https://github.com/rosmapeb/Data-Visualization/issues/1#issuecomment-433130208
-
+![comparativo](https://user-images.githubusercontent.com/22421174/47382886-fc548180-d6c8-11e8-9644-efa65e9a167b.png)
 
 #### PRIMERA SECCIÓN: Datos descriptivos
 
