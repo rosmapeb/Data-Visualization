@@ -26,7 +26,7 @@ La ficha que se elaboró se divide en cuatro secciones:
 
 Con base en estas secciones, a continuación se explicará a detalle el _output_ final:
 
-<center>![seleccion_091](https://user-images.githubusercontent.com/22421174/47517546-1bc8e700-d84e-11e8-9870-de20d3713866.png)</center>
+![seleccion_091](https://user-images.githubusercontent.com/22421174/47517546-1bc8e700-d84e-11e8-9870-de20d3713866.png)
 
 #### PRIMERA SECCIÓN: Datos descriptivos
 
